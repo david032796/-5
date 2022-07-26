@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+.top-header li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.top-header li:not(last-child) {
+    display: inline-block;
+    margin-right: 52px;
+}
+
+.profile-shop a:not(:last-child){
+    margin-right: 27px;
+}
+
+.header-2{
+    width: auto;
+    height: 62px;
+    margin-top: 50px;
+    background-color: #0052CC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-2 img {
+ margin-left: 50px;
+}
+
+.header-2 input {
+    width: 389px;
+height: 40px;
+left: 525px;
+top: 118px;
+border-radius: 6px;
+margin-right: 200px;
+}
+
+input{
+    text-align:center;
+}
+.search-bar img {
+    position: absolute;
+    margin: 10px;
+
+}
+
+.search-bar{
+    position: relative;
+}
+
+.headline-text {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content:center;
+
+}
+
+.card1, .card2, .card3, .card4 {
+    margin-right: 100px;
+    width: 344.12px;
+    height: 450.01px;
+}
+
+.card-sicription h3 {
+    float: left;
+}
+
+.card-sicription p {
+    float: right;
+}
+
+footer{
+    height: 249px;
+    margin-top: 233px;
+    background: #0052CC;
+}
+
+.card1-img {
+    height: 450.62px;
+    border: 1px solid rgb(134, 131, 131)45, 91, 91);
+    background-image: url('/static/imgs/CARD 1.png');
+    transition: all;
+    background-size: cover;
+    background-repeat:no-repeat;
+    transition-timing-function: ease-in-out;
+}
+.card1-img:hover{
+    height: 450.62px;
+    background-size: cover;
+    background-image: url('/static/imgs/image 2.svg');
+
+}
